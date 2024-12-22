@@ -8,7 +8,10 @@
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link
+      href="img/International And Domestic Language Translation Service. Logo contain IDLETS (3).jpg"
+      rel="icon"
+    />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +32,7 @@
     />
 
     <!-- Libraries Stylesheet -->
-    <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
@@ -79,27 +82,14 @@
               <a href="index.html" class="nav-item nav-link">Home</a>
               <a href="about.html" class="nav-item nav-link">About</a>
               <a href="service.html" class="nav-item nav-link">Service</a>
-              <a href="project.html" class="nav-item nav-link">Project</a>
-              <div class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  >Pages</a
-                >
-                <div class="dropdown-menu m-0">
-                  <a href="team.html" class="dropdown-item">Our Team</a>
-                  <a href="testimonial.html" class="dropdown-item"
-                    >Testimonial</a
-                  >
-                  <a href="404.html" class="dropdown-item">404 Page</a>
-                </div>
-              </div>
+              <a href="career.html" class="nav-item nav-link">Career</a>
               <a href="contact.html" class="nav-item nav-link active"
                 >Contact</a
               >
             </div>
-            <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block"
+            <a
+              href="contact.html"
+              class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block"
               >Get Started</a
             >
           </div>
@@ -150,7 +140,11 @@
                   Ready to expand your reach? Let us help you communicate across
                   languages seamlessly.
                 </p>
-                <form>
+                <form
+                  id="my-form"
+                  action="https://formspree.io/f/xqakvbdd"
+                  method="post"
+                >
                   <div class="row g-3">
                     <div class="col-md-6">
                       <div class="form-floating">
@@ -192,6 +186,7 @@
                           placeholder="Leave a message here"
                           id="message"
                           style="height: 150px"
+                          name="message"
                         ></textarea>
                         <label for="message">Message</label>
                       </div>
@@ -200,6 +195,9 @@
                       <button class="btn btn-primary w-100 py-3" type="submit">
                         Send Message
                       </button>
+                    </div>
+                    <div class="col-12">
+                      <p id="my-form-status" class="text-center mt-3"></p>
                     </div>
                   </div>
                 </form>
@@ -372,5 +370,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>
