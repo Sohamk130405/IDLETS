@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+Sitemap: http://www.idlets.com/sitemap.xml
